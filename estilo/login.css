@@ -1,3 +1,52 @@
+   form {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    
+    label {
+        font-family: 'Avenir';
+        font-style: normal;
+        color: #FFB870;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    input {
+        height: 50%;
+        padding: 2px;
+        box-sizing: border-box;
+        background: #9A86FD;
+        border: 1px solid #000000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0, .25);
+        border-radius: 25px;
+        transition: all 0.5s;
+        padding-left: 5%;
+        color: white;
+    }
+    
+    input:focus {
+        outline: none;
+        box-shadow: 0px 0px 15px #FFB870;
+    }
+    
+    button {
+        display: block;
+        box-sizing: border-box;
+        border-radius: 25px;
+        width: 50%;
+        background: #9A86FD;
+        color: white;
+        border: 1px solid #000000;
+        margin-left: 5px;
+        cursor: pointer;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0, .25);
+        transition: all 0.5s;
+    }
+    
+    button:hover {
+        box-shadow: 0px 0px 15px #FFB870;
+    }
 
 
 
